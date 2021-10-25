@@ -1,1 +1,1 @@
-# MyFunProjects-Practices
+# MyFunProjects & Practices
