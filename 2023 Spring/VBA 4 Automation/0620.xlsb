@@ -1,0 +1,36 @@
+Sub InsertBlankLineAndFormat()
+    Dim lastRow As Long
+    Dim currentRow As Long
+    Dim nextContent As String
+    
+    ' Find the last row with data in column A
+    lastRow = Cells(Rows.Count, 1).End(xlUp).Row
+    
+    ' Loop through the rows starting from the last and moving upwards
+    For currentRow = lastRow To 2 Step -1
+        ' Check if the content in the first column is different from the next row
+        If Cells(currentRow, 1).Value <> Cells(currentRow - 1, 1).Value Then
+            ' Insert a blank row
+            Rows(currentRow).Insert Shift:=xlDown
+            
+            ' Copy the content from the first column of the next row
+            nextContent = Cells(currentRow + 1, 1).Value
+            Cells(currentRow, 1).Value = nextContent
+            
+            ' Format the blank row
+            Range("A" & currentRow).Resize(, 7).Merge
+            With Range("A" & currentRow).Resize(, 7)
+                .HorizontalAlignment = xlCenter
+                .VerticalAlignment = xlCenter
+                .Interior.Color = RGB(142, 169, 219) ' Blue, Accent 1, Lighter 40%
+            End With
+        End If
+    Next currentRow
+    
+     'Copy range to another workbook
+  Workbooks("Test - Copy (2).xlsm").Worksheets("2023-02-01 BB Makup Summary - C").Range("A2:G269").Copy _
+    Workbooks("Test BSP-BSCGP-DES-TEM-00029-ITDR DDC Pre-PDR Second Submission.xlsm").Worksheets("Interdisciplinary_review").Range("B17")
+    
+    
+End Sub
+
