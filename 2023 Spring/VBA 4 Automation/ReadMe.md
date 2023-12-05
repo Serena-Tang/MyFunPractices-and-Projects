@@ -1,4 +1,4 @@
-# **This is where I toss my daily creations for automating the workflow 
+# This is where I toss my daily creations for automating the workflow 
 * Everyone says construction isn't where software is shaped
 * You think?
 * It's 100% a perception question
