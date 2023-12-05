@@ -9,5 +9,6 @@
 
 * 3.3 ![image](https://github.com/Serena-Tang/MyFunPractices-and-Projects/assets/83049700/dbea7bc9-62f6-4218-bb25-0e589319c6a5)
   
-* Demo:![image](https://github.com/Serena-Tang/MyFunPractices-and-Projects/blob/main/VBA%202023Dec05%20BB%20automation.gif)
+* Demo:
+  ##### ![image](https://github.com/Serena-Tang/MyFunPractices-and-Projects/blob/main/VBA%202023Dec05%20BB%20automation.gif)
 
