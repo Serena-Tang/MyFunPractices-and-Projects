@@ -1,0 +1,5 @@
+# About handy tools for this repo:
+* Readme collective: https://www.youtube.com/watch?v=Nj87GEXxhjc&ab_channel=ShabbirGovernor
+* Video cropper: https://online-video-cutter.com/crop-video
+* Video to GIF: https://www.img2go.com/convert-video-to-gif
+
