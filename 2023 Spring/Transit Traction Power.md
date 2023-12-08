@@ -8,3 +8,15 @@
 ### Traction Power: 
 * Read & understand CEC standards, get CTS, read standards
 * 24:36 - Things like short circuit research, low voltage study report. 
+
+## Oct 16, 2023
+
+		Link
+* Electrical machines, drivers, and power systems	Theodore 	5th 
+5th Scan
+
+* Electric Machinery and Power System Fundamentals	Stephen J. Chapman	2002 
+
+* Power System Analysis	John J. Grainger	ONE
+
+* Modern Solutions for Protection, Control and Monitoring of Electric Power Systems	Hector J., Edmund Schweitzer III	
