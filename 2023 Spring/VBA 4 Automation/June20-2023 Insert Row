@@ -1,0 +1,8 @@
+Insert Blank Lines like could be 10000000 lines blank: 
+
+Sub InsertBlackRows()
+'Updateby20131127
+
+Range("a18:a100").EntireRow.Insert xlShiftDown, xlFormatFromLeftOrAbove
+
+End Sub
