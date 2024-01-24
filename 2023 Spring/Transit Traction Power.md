@@ -19,4 +19,6 @@
 
 * Power System Analysis	John J. Grainger	ONE
 
-* Modern Solutions for Protection, Control and Monitoring of Electric Power Systems	Hector J., Edmund Schweitzer III	
+* Modern Solutions for Protection, Control and Monitoring of Electric Power Systems	Hector J., Edmund Schweitzer III
+
+* Load Flow Study
