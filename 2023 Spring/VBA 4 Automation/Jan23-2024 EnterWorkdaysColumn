@@ -1,0 +1,34 @@
+Sub EnterWorkdaysInJanuary2024()
+    Dim startDate As Date
+    Dim endDate As Date
+    Dim currentDate As Date
+    Dim columnToEnterDates As Integer
+    Dim currentRow As Integer
+
+    ' Set the start and end dates for January 2024
+    startDate = DateValue("01/01/2024")
+    endDate = DateValue("01/31/2024")
+
+    ' Set the column where you want to enter the dates
+    columnToEnterDates = 1 ' Change this to the desired column number (A = 1, B = 2, etc.)
+
+    ' Initialize the current row
+    currentRow = 7 ' Change this to the desired starting row
+
+    ' Loop through the dates and enter workdays in the specified column
+    For currentDate = startDate To endDate
+        ' Check if the current day is a workday (Monday to Friday)
+        If Weekday(currentDate, vbMonday) <= 5 Then
+            ' Enter the date in the specified column and row
+            Cells(currentRow, columnToEnterDates).Value = currentDate
+            
+            ' Format the date as DD/MM/YY
+            Cells(currentRow, columnToEnterDates).NumberFormat = "DD/MM/YY"
+            
+            ' Move to the next row
+            currentRow = currentRow + 1
+        End If
+    Next currentDate
+End Sub
+
+
