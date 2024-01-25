@@ -12,21 +12,13 @@
 ## Oct 16, 2023
 
 		Link
-* Electrical machines, drivers, and power systems	Theodore 	5th 
-5th Scan
 
-* Electric Machinery and Power System Fundamentals	Stephen J. Chapman	2002 
-
-* Power System Analysis	John J. Grainger	ONE
-
-* Modern Solutions for Protection, Control and Monitoring of Electric Power Systems	Hector J., Edmund Schweitzer III
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-[5th](https://ia600901.us.archive.org/9/items/ElectricalMachinesDrivesAndPowerSystems5ETheodoreWildi/Electrical%20Machines,%20Drives,%20and%20Power%20Systems%205E%20(Theodore%20Wildi)_text.pdf)
+| Book Name  | Author | Edition  |
+| ------------- | ------------- | ------------- |
+| Electrical machines, drivers, and power systems  | Theodore  | [5th](https://ia600901.us.archive.org/9/items/ElectricalMachinesDrivesAndPowerSystems5ETheodoreWildi/Electrical%20Machines,%20Drives,%20and%20Power%20Systems%205E%20(Theodore%20Wildi)_text.pdf) <br> 5th [scan](https://dokumen.tips/engineering/electrical-machines-drives-and-power-systems-5e-by-theodore-wildi.html?page=213)|
+| Electric Machinery and Power System Fundamentals  | Stephen J. Chapman | [2002](http://www.mhhe.com/engcs/electrical/chapman/power/index.mhtml)  |
+| Power System Analysis  | John J. Grainger  | [One](https://ritwikchowdhury.files.wordpress.com/2017/12/power_system_analysis_john_grainger_1st.pdf)  |
+| Modern Solutions for Protection, Control and <br> Monitoring of Electric Power Systems  | Hector J., Edmund Schweitzer III  | Content |
 
 
 * Load Flow Study
